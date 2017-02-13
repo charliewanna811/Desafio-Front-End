@@ -1,0 +1,20 @@
+.container{
+    width: 960px;
+    margin: 0px auto;
+}
+
+.top-p{
+    margin-top: -25px;
+}
+/* -- 3.X Print preview -- */
+a.print-preview {
+    background: url(http://cdn.printfriendly.com/pf-pdf-icon.gif) no-repeat 0 0;
+    cursor: pointer;
+  
+    margin: -42px 0 20px;
+  
+    line-height: 20px;
+}
+
+
+  

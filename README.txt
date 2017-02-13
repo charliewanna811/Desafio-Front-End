@@ -1,0 +1,1 @@
+-Utilicé el Framework Bootstrap para darle los estilos y un pluging en javascript para poder imprimir y por tanto una vista previa antes de realizar la impresion, tambíen importe un enlace donde esta el código JS para realizar las funcionalidades de los eventos en los botones.

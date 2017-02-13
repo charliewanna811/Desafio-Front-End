@@ -1,0 +1,54 @@
+#print-modal {
+    background: #FFF;
+    position: absolute;
+    left: 20%;
+     width: 60%;
+    margin: 0 auto;
+    padding: 0 68px;
+   
+    box-shadow: 0 0 20px #000;
+        -moz-box-shadow: 0 0 20px #000;
+    	-webkit-box-shadow: 0 0 10px #000;
+}
+
+#print-modal-content {
+    margin: 68px 0;
+    border: none;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+#print-modal-controls {
+    border: 1px solid #CDF;
+    border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+    top: 15px;
+
+    margin: 0 0 0  440px;
+    position: fixed;
+    padding: 5px 0;
+    background: rgba(250, 250, 250, 0.75);
+}
+
+    #print-modal-controls a {
+        color: #FFF;
+        display: block;
+        float: left;
+        height: 32px;
+        text-decoration: none;
+        text-indent: -999em;
+        width: 80px;
+    }
+    
+    #print-modal-controls a:hover {
+        opacity: 0.75;
+    }
+    
+    #print-modal-controls a.print {
+        background: url(../images/icon-print.png) no-repeat 50% 50%;
+    }
+    #print-modal-controls a.close {
+        background: url(../images/icon-close.png) no-repeat 50% 50%;
+    }
